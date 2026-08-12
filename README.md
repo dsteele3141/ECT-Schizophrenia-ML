@@ -4,6 +4,18 @@ Machine learning code accompanying the publication:
 
 > Semple, D.M., Suveges, S., Steele, J.D. (2026). *Electroconvulsive Treatment for Schizophrenia: a Decade of National Scottish Data.* BJPsych Bulletin.
 
+## Origin and acknowledgement
+
+This repository originated as a copy of
+[unky4/ECT-Schizophrenia-ML](https://github.com/unky4/ECT-Schizophrenia-ML),
+written by **Szabolcs Suveges** while a postdoctoral researcher in the group.
+That repository is the original source of this code and is gratefully
+acknowledged. (The published article cites it as
+`github.com/unky4/ECT-SchizophreniaML`; the correct URL is the one above.)
+
+This copy is maintained independently by J. Douglas Steele and is being
+developed separately; it may diverge from the original, which remains the
+version of record accompanying the publication.
 ## Overview
 
 This repository contains a nested cross-validation machine learning pipeline to predict treatment outcome (CGI score at discharge) in schizophrenia patients receiving Electroconvulsive Therapy (ECT), using baseline clinical features.
